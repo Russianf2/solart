@@ -144,9 +144,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const co2 = (consumo * 0.42).toFixed(1)
 
     calcValPaneles.textContent = paneles
-    calcValAhorro.textContent = '$' + Math.round(ahorro).toLocaleString('es-CO')
+    calcValAhorro.textContent = '$ ' + Math.round(ahorro).toLocaleString('es-CO')
     calcValCO2.textContent = co2
-    calcValCosto.textContent = '$' + Math.round(costoActual).toLocaleString('es-CO')
+    calcValCosto.textContent = '$ ' + Math.round(costoActual).toLocaleString('es-CO')
 
     calcPlaceholder.style.display = 'none'
     calcResult.classList.add('active')
