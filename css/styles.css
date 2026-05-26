@@ -234,8 +234,8 @@ ul{list-style:none}
 .timeline-item h4{font-family:var(--f-h);font-size:1.1rem;font-weight:600;margin-bottom:4px}
 .timeline-item p{font-size:0.9rem;color:var(--text-muted);line-height:1.6}
 .timeline-founders{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
-.founder-card{display:flex;align-items:center;gap:14px;padding:16px 20px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-md);flex:1}
-.founder-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--blue-l));display:flex;align-items:center;justify-content:center;color:var(--white);font-weight:700;font-size:0.9rem}
+.founder-card{display:flex;align-items:center;gap:14px;padding:16px 20px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-md)}
+.founder-avatar{width:44px;min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--blue-l));display:flex;align-items:center;justify-content:center;color:var(--white);font-weight:700;font-size:0.9rem;flex-shrink:0}
 .founder-info h4{font-size:0.95rem;font-weight:600}
 .founder-info p{font-size:0.8rem;color:rgba(255,255,255,0.5)}
 
